@@ -1631,11 +1631,11 @@ Responsive
 	
 	.about-box h2{
 	margin-top: -50px;
-	margin-left: 20px;
+	margin-left: 0px;
 	}
 	.about-box .introduction {
 	margin-top: 40px;
-	margin-left: 20px;
+	margin-left: 0px;
 	}
 	
 	.blog-post-item:last-child {
@@ -1732,11 +1732,11 @@ Responsive
 	
 	.about-box h2{
 	margin-top: -50px;
-	margin-left: 20px;
+	margin-left: 0px;
 	}
 	.about-box .introduction {
 	margin-top: 40px;
-	margin-left: 20px;
+	margin-left: 0px;
 	}
 	.portfolio-item .pi-info {
 		width: 170px;
