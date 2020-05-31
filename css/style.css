@@ -999,6 +999,7 @@ Portfolio page
 
 .portfolio-item img {
 	min-width: 100%;
+	min-height: 100%;
 }
 
 .portfolio-item .portfolio1 .pi-info {
