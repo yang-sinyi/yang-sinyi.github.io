@@ -1597,7 +1597,7 @@ Responsive
 		margin: 0 auto;
 	}
 	.hs-item {
-		width: 100%;
+		width: 300px;
 		height: 600px;
 	}
 	.hs-item .hs-info {
@@ -1607,7 +1607,7 @@ Responsive
 		width: auto;
 	}
 	.video-section {
-		height: 400px;
+		height: 800px;
 	}
 	.about-section,
 	.blog-page,
