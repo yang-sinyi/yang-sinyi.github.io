@@ -1605,6 +1605,10 @@ Responsive
 		width: 320px;
 		padding-left: 15px;
 	}
+	
+	.hs-item .hs-info:hover {
+	width: 320px;
+	}
 	.hs-item .hs-info img {
 		width: auto;
 	}
@@ -1700,6 +1704,10 @@ Responsive
 	float: left;
 	margin-left: 30px;
 	position: relative;
+	}
+	
+	.hs-item .hs-info:hover {
+	width: 280px;
 	}
 	
 	.about-box {
