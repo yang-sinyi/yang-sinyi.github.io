@@ -1623,6 +1623,21 @@ Responsive
 		padding: 0 15px;
 		margin: 0;
 	}
+	
+	.about-box {
+	background:linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0.9));
+	height:800px;
+	}
+	
+	.about-box h2{
+	margin-top: -50px;
+	margin-left: 20px;
+	}
+	.about-box .introduction {
+	margin-top: 40px;
+	margin-left: 20px;
+	}
+	
 	.blog-post-item:last-child {
 		margin-bottom: 0;
 	}
