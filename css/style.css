@@ -1558,7 +1558,7 @@ Responsive
 		margin-bottom: 50px;
 	}
 	.site-logo h2 {
-		margin-top:50px;
+		margin-top:-50px;
 		font-size: 60px;
 		line-height: 70px;
 	}
