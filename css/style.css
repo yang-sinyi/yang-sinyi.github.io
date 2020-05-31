@@ -1597,10 +1597,11 @@ Responsive
 		margin: 0 auto;
 	}
 	.hs-item {
-		width: 300px;
+		width: 320px;
 		height: 600px;
 	}
 	.hs-item .hs-info {
+		width: 320px;
 		padding-left: 15px;
 	}
 	.hs-item .hs-info img {
