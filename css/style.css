@@ -1613,7 +1613,7 @@ Responsive
 		width: auto;
 	}
 	.video-section {
-		height: 800px;
+		height: 600px;
 	}
 	.about-section,
 	.blog-page,
@@ -1626,7 +1626,7 @@ Responsive
 	
 	.about-box {
 	background:linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0.9));
-	height:800px;
+	height:600px;
 	}
 	
 	.about-box h2{
@@ -1727,7 +1727,7 @@ Responsive
 	
 	.about-box {
 	background:linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0.9));
-	height:800px;
+	height:600px;
 	}
 	
 	.about-box h2{
