@@ -1714,7 +1714,7 @@ Responsive
 		margin-bottom: 30px;
 	}
 	.hs-item {
-	height: 750px;
+	height: 500px;
 	max-width:280px;
 	float: left;
 	margin-left: 30px;
@@ -1723,6 +1723,7 @@ Responsive
 	
 	.hs-item .hs-info:hover {
 	width: 280px;
+	height: 500px;
 	}
 	
 	.about-box {
