@@ -1701,6 +1701,20 @@ Responsive
 	margin-left: 30px;
 	position: relative;
 	}
+	
+	.about-box {
+	background:linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0.9));
+	height:800px;
+	}
+	
+	.about-box h2{
+	margin-top: -50px;
+	margin-left: 20px;
+	}
+	.about-box .introduction {
+	margin-top: 40px;
+	margin-left: 20px;
+	}
 	.portfolio-item .pi-info {
 		width: 170px;
 		padding: 15px 0 5px 0;
