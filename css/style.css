@@ -1755,20 +1755,20 @@ Responsive
 		padding: 15px 0 5px 0;
 	}
 	.portfolio-item .portfolio1.open .pi-info {
-		width: 330px;
+		width: 350px;
 		padding: 15px 0 5px 0;
 		padding: 15px 0 5px 0;
 		margin-bottom:30px;
 	}
 	.portfolio-item .portfolio1 .pi-info p {
-		max-width:300px;
+		margin-right:50px;
 	}
 	.portfolio-item .portfolio2 .pi-info {
 		width: 170px;
 		padding: 15px 0 5px 0;
 	}
 	.portfolio-item .portfolio2.open .pi-info {
-		width: 330px;
+		width: 350px;
 		left: 0;
 		top: 0px;
 		padding: 15px 0 5px 0;
@@ -1778,7 +1778,7 @@ Responsive
 		padding: 15px 0 5px 0;
 	}
 	.portfolio-item .portfolio3.open .pi-info {
-		width: 330px;
+		width: 350px;
 		left: 0;
 		top: 0px;
 		padding: 15px 0 5px 0;
@@ -1788,7 +1788,7 @@ Responsive
 		padding: 15px 0 5px 0;
 	}
 	.portfolio-item .portfolio4.open .pi-info {
-		width: 330px;
+		width: 350px;
 		left: 0;
 		top: 0px;
 		padding: 15px 0 5px 0;
@@ -1798,7 +1798,7 @@ Responsive
 		padding: 15px 0 5px 0;
 	}
 	.portfolio-item .portfolio5.open .pi-info {
-		width: 330px;
+		width: 350px;
 		left: 0;
 		top: 0px;
 		padding: 15px 0 5px 0;
