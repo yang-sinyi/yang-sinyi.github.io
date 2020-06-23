@@ -1,0 +1,729 @@
+.body {
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.cards_area {
+    position: absolute;
+    left:100px;
+    top: 50px;
+}
+
+.cards_area img{
+    width:160px;
+    height:120px;
+}
+
+.counter{
+    display:none;
+}
+
+/*----------------------------------------*/
+/* 開始前
+/*----------------------------------------*/
+
+.intro.check{
+    display:none;
+}
+
+.intro{
+    position: absolute;
+    z-index: 3;
+    width:1350px;
+    height:610px;
+    top:0px;
+    left:0px;
+    background-color: #ffffff;
+}
+
+
+.intro .rule_board{
+    position: absolute;
+    top:100px;
+    left:350px;
+}
+
+.intro .rule_board img{
+    width:600px;
+    height:400px;
+}
+
+.intro h1{
+    position: absolute;
+    top:130px;
+    left:570px;
+    width:300px;
+    height:50px;
+    font-family: "Yu Mincho", serif;
+}
+
+.intro .rule{
+    position: absolute;
+    top: 200px;
+    left:400px;
+}
+
+.intro p {
+    width:500px;
+    height:20px;
+    text-align: center;
+    font-family: "Yu Mincho", serif;
+}
+
+.intro h2 {
+    position: absolute;
+    top:350px;
+    left:590px;
+    width:100px;
+    height:30px;
+    background-color: black;
+    color:#ffffff;
+    text-align:center;
+    transition: 1s;
+    font-family: "Yu Mincho", serif;
+}
+
+.intro h2:hover{
+    opacity: 0.7;
+}
+
+
+/*----------------------------------------*/
+/* 目錄
+/*----------------------------------------*/
+
+.menu {
+    position: absolute;
+    left: 1000px;
+    top: 70px;
+}
+
+.menu li{
+    list-style-type: none;
+}
+
+.menu .logo img{
+    width: 170px;
+    height: 90px;
+}
+
+.menu .setting .setting_bottom img{
+    position: absolute;
+    top: 400px;
+    width: 50px;
+    height: 50px;
+}
+
+.menu .setting.open .setting_bottom img{
+    position: absolute;
+    top: 400px;
+    width: 50px;
+    height: 50px;
+}
+
+.menu h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Yu Mincho", serif;
+}
+
+.menu h3{
+    font-family: "Yu Mincho", serif;
+}
+
+/*----------------------------------------*/
+/* 設定目錄
+/*----------------------------------------*/
+
+.menu .setting .setting_menu{
+    display:none;
+}
+
+.menu .setting.open .setting_menu{
+    display:block;
+    position: absolute;
+    left: -925px;
+    top: -25px;
+    width: 900px;
+    height: 550px;
+    background: url(image/bg/menu_background.png);
+    z-index:2;
+}
+
+.menu .setting.open .setting_menu p{
+    font-size: 36px;
+    position: absolute;
+    top:5px;
+    left:330px;
+    font-family: "Yu Mincho", serif;
+}
+
+.menu .setting.open .setting_menu img{
+    width: 200px;
+    height: 150px;
+}
+
+.menu .setting.open .setting_menu .hanabara_option1 img{
+    position: absolute;
+    left: 250px;
+    top: 100px;
+    transition: 1s;
+}
+
+.menu .setting.open .setting_menu .hanabara_option1 img:hover{
+    position: absolute;
+    left: 250px;
+    top: 95px;
+}
+
+.menu .setting.open .setting_menu .hanabara_option2 img{
+    position: absolute;
+    left: 470px;
+    top: 100px;
+    transition: 1s;
+}
+
+.menu .setting.open .setting_menu .hanabara_option2 img:hover{
+    position: absolute;
+    left: 470px;
+    top: 95px;
+}
+
+.menu .setting.open .setting_menu .hanabara_option3 img{
+    position: absolute;
+    left: 250px;
+    top: 270px;
+    transition: 1s;
+}
+
+.menu .setting.open .setting_menu .hanabara_option3 img:hover{
+    position: absolute;
+    left: 250px;
+    top: 265px;
+}
+
+.menu .setting.open .setting_menu .hanabara_option4 img{
+    position: absolute;
+    left: 470px;
+    top: 270px;
+    transition: 1s;
+}
+
+.menu .setting.open .setting_menu .hanabara_option4 img:hover{
+    position: absolute;
+    left: 470px;
+    top: 265px;
+}
+
+/*----------------------------------------*/
+/* 翻牌
+/*----------------------------------------*/
+.card1 .card_back {
+    position: absolute;
+    display:block;
+    left: 0px;
+    top: 0px;
+}
+
+.card1 .card_open {
+    display:none;
+}
+
+.card1 .card.open .card_open{
+    position: absolute;
+    display: block;
+    left: 0px;
+    top: 15px;
+}
+
+.card1 .card.open .card_back {
+    display:none;
+}
+
+.card2 .card_back {
+    position: absolute;
+    display:block;
+    left: 170px;
+    top: 0px;
+}
+
+.card2 .card_open {
+    display:none;
+}
+
+.card2 .card.open .card_open{
+    position: absolute;
+    display: block;
+    left: 170px;
+    top: 15px;
+}
+
+.card2 .card.open .card_back {
+    display:none;
+}
+
+.card3 .card_back {
+    position: absolute;
+    display:block;
+    left: 340px;
+    top: 0px;
+}
+
+.card3 .card_open {
+    display:none;
+}
+
+.card3 .card.open .card_open{
+    position: absolute;
+    display: block;
+    left: 340px;
+    top: 15px;
+}
+
+.card3 .card.open .card_back {
+    display:none;
+}
+
+.card4 .card_back {
+    position: absolute;
+    display:block;
+    left: 510px;
+    top: 0px;
+}
+
+.card4 .card_open {
+    display:none;
+}
+
+.card4 .card.open .card_open{
+    position: absolute;
+    display: block;
+    left: 510px;
+    top: 15px;
+}
+
+.card4 .card.open .card_back {
+    display:none;
+}
+
+.card5 .card_back {
+    position: absolute;
+    display:block;
+    left: 680px;
+    top: 0px;
+}
+
+.card5 .card_open {
+    display:none;
+}
+
+.card5 .card.open .card_open{
+    position: absolute;
+    display: block;
+    left: 680px;
+    top: 15px;
+}
+
+.card5 .card.open .card_back {
+    display:none;
+}
+
+.card6 .card_back {
+    position: absolute;
+    display:block;
+    left: 0px;
+    top: 130px;
+}
+
+.card6 .card_open {
+    display:none;
+}
+
+.card6 .card.open .card_open{
+    position: absolute;
+    display: block;
+    left: 0px;
+    top: 145px;
+}
+
+.card6 .card.open .card_back {
+    display:none;
+}
+
+.card7 .card_back {
+    position: absolute;
+    display:block;
+    left: 170px;
+    top: 130px;
+}
+
+.card7 .card_open {
+    display:none;
+}
+
+.card7 .card.open .card_open{
+    position: absolute;
+    display: block;
+    left: 170px;
+    top: 145px;
+}
+
+.card7 .card.open .card_back {
+    display:none;
+}
+
+.card8 .card_back {
+    position: absolute;
+    display:block;
+    left: 340px;
+    top: 130px;
+}
+
+.card8 .card_open {
+    display:none;
+}
+
+.card8 .card.open .card_open{
+    position: absolute;
+    display: block;
+    left: 340px;
+    top: 145px;
+}
+
+.card8 .card.open .card_back {
+    display:none;
+}
+
+.card9 .card_back {
+    position: absolute;
+    display:block;
+    left: 510px;
+    top: 130px;
+}
+
+.card9 .card_open {
+    display:none;
+}
+
+.card9 .card.open .card_open{
+    position: absolute;
+    display: block;
+    left: 510px;
+    top: 145px;
+}
+
+.card9 .card.open .card_back {
+    display:none;
+}
+
+.card10 .card_back {
+    position: absolute;
+    display:block;
+    left: 680px;
+    top: 130px;
+}
+
+.card10 .card_open {
+    display:none;
+}
+
+.card10 .card.open .card_open{
+    position: absolute;
+    display: block;
+    left: 680px;
+    top: 145px;
+}
+
+.card10 .card.open .card_back {
+    display:none;
+}
+
+.card11 .card_back {
+    position: absolute;
+    display:block;
+    left: 0px;
+    top: 260px;
+}
+
+.card11 .card_open {
+    display:none;
+}
+
+.card11 .card.open .card_open{
+    position: absolute;
+    display: block;
+    left: 0px;
+    top: 275px;
+}
+
+.card11 .card.open .card_back {
+    display:none;
+}
+
+.card12 .card_back {
+    position: absolute;
+    display:block;
+    left: 170px;
+    top: 260px;
+}
+
+.card12 .card_open {
+    display:none;
+}
+
+.card12 .card.open .card_open{
+    position: absolute;
+    display: block;
+    left: 170px;
+    top: 275px;
+}
+
+.card12 .card.open .card_back {
+    display:none;
+}
+
+.card13 .card_back {
+    position: absolute;
+    display:block;
+    left: 340px;
+    top: 260px;
+}
+
+.card13 .card_open {
+    display:none;
+}
+
+.card13 .card.open .card_open{
+    position: absolute;
+    display: block;
+    left: 340px;
+    top: 275px;
+}
+
+.card13 .card.open .card_back {
+    display:none;
+}
+
+.card14 .card_back {
+    position: absolute;
+    display:block;
+    left: 510px;
+    top: 260px;
+}
+
+.card14 .card_open {
+    display:none;
+}
+
+.card14 .card.open .card_open{
+    position: absolute;
+    display: block;
+    left: 510px;
+    top: 275px;
+}
+
+.card14 .card.open .card_back {
+    display:none;
+}
+
+.card15 .card_back {
+    position: absolute;
+    display:block;
+    left: 680px;
+    top: 260px;
+}
+
+.card15 .card_open {
+    display:none;
+}
+
+.card15 .card.open .card_open{
+    position: absolute;
+    display: block;
+    left: 680px;
+    top: 275px;
+}
+
+.card15 .card.open .card_back {
+    display:none;
+}
+
+.card16 .card_back {
+    position: absolute;
+    display:block;
+    left: 0px;
+    top: 390px;
+}
+
+.card16 .card_open {
+    display:none;
+}
+
+.card16 .card.open .card_open{
+    position: absolute;
+    display: block;
+    left: 0px;
+    top: 405px;
+}
+
+.card16 .card.open .card_back {
+    display:none;
+}
+
+.card17 .card_back {
+    position: absolute;
+    display:block;
+    left: 170px;
+    top: 390px;
+}
+
+.card17 .card_open {
+    display:none;
+}
+
+.card17 .card.open .card_open{
+    position: absolute;
+    display: block;
+    left: 170px;
+    top: 405px;
+}
+
+.card17 .card.open .card_back {
+    display:none;
+}
+
+.card18 .card_back {
+    position: absolute;
+    display:block;
+    left: 340px;
+    top: 390px;
+}
+
+.card18 .card_open {
+    display:none;
+}
+
+.card18 .card.open .card_open{
+    position: absolute;
+    display: block;
+    left: 340px;
+    top: 405px;
+}
+
+.card18 .card.open .card_back {
+    display:none;
+}
+
+.card19 .card_back {
+    position: absolute;
+    display:block;
+    left: 510px;
+    top: 390px;
+}
+
+.card19 .card_open {
+    display:none;
+}
+
+.card19 .card.open .card_open{
+    position: absolute;
+    display: block;
+    left: 510px;
+    top: 405px;
+}
+
+.card19 .card.open .card_back {
+    display:none;
+}
+
+.card20 .card_back {
+    position: absolute;
+    left: 680px;
+    top: 390px;
+}
+
+.card20 .card_open {
+    display:none;
+}
+
+.card20 .card.open .card_open{
+    display: block;
+    position: absolute;
+    left: 680px;
+    top: 405px;
+}
+
+.card20 .card.open .card_back {
+    display:none;
+}
+
+/*----------------------------------------*/
+/* 開始前
+/*----------------------------------------*/
+
+.pass{
+    display:none;
+}
+
+.pass.get{
+    display:block;
+    position: absolute;
+    z-index: 5;
+    width:1350px;
+    height:610px;
+    top:0px;
+    left:0px;
+    background-color: #ffffff;
+}
+
+
+.pass.get .pass_board{
+    position: absolute;
+    top:100px;
+    left:350px;
+}
+
+.pass.get .pass_board img{
+    width:600px;
+    height:400px;
+}
+
+.pass.get h1{
+    position: absolute;
+    top:130px;
+    left:570px;
+    width:300px;
+    height:50px;
+    font-family: "Yu Mincho", serif;
+}
+
+.pass.get .message{
+    position: absolute;
+    top: 200px;
+    left:400px;
+}
+
+.pass.get p {
+    width:500px;
+    height:20px;
+    text-align: center;
+    font-family: "Yu Mincho", serif;
+}
+
+.pass.get h2 {
+    position: absolute;
+    top:350px;
+    left:590px;
+    width:120px;
+    height:30px;
+    background-color: black;
+    color:#ffffff;
+    text-align:center;
+    transition: 1s;
+    font-family: "Yu Mincho", serif;
+}
+
+.pass.get h2:hover{
+    opacity: 0.7;
+}
+

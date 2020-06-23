@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<link rel="stylesheet" href="main.css"/>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>翻牌遊戲</title>
+
+</head>
+<body>
+    <body background="image/bg/background.jpg">
+    
+<!---開始前--->
+
+    <div class="intro">
+        <div class="rule_board">
+            <img src="image/bg/rule_bg.png">
+        </div>
+        <h1>規則說明</h1>
+        <div class="rule">
+            <p>總共有20張卡片，兩兩成對，翻到一樣的可以湊一對</p>
+            <p>這個遊戲要挑戰在最短的時間內把卡片翻完</p>
+            <p>按下右側的富士山可以重新開始，設定可以選擇卡片花色</p>
+            <p>按下START後開始</p>
+        </div>
+        <a href="#" class="start_bottom" id="start_bottom">
+            <h2>START</h2>
+        </a>
+    </div>
+    
+<!---目錄--->
+    <div class="menu">
+        <li class="logo">
+            <a href="#">
+                <img src="image/bottoms/logo.png">
+            </a>
+        </li>
+        <li>
+            <h2>翻牌遊戲</h2>
+        </li>
+        <li>
+            <h3>計時</h3>
+            <div id="counter">00:00:00</div>
+            <button type="button" id="counterBtn" class="counter" >計時</button>
+        </li>
+        <li>
+            <h3>目前已完成</h3>
+            <div id="point_counter" style="font-size:36px;font-family:Yu Mincho;"></div>
+        </li>
+        <li class="setting">
+            <a href="#" class="setting_bottom">
+                <img src="image/bottoms/setting.png">
+            </a>
+            <div class="setting_menu">
+                <a href="#" class="hanabara_option1">
+                        <img src="image/cards/hanabara/hanabara_1.png">
+                </a>
+                <a href="#" class="hanabara_option2">
+                        <img src="image/cards/hanabara/hanabara_2.png">
+                </a>
+                <a href="#" class="hanabara_option3">
+                        <img src="image/cards/hanabara/hanabara_3.png">
+                </a>
+                <a href="#" class="hanabara_option4">
+                        <img src="image/cards/hanabara/hanabara_4.png">
+                </a>
+                <p>選擇要換的花色</p>
+            </div>
+        </li>
+    </div>
+
+<!---卡片--->
+    <div class="cards_area">
+        <div class="card1">
+            <div class="card">
+                <div class="card_back">
+                    <p class="hanabara1">
+                        <img id="ha1"></img>
+                    </p>
+                </div>
+                <div class="card_open">
+                    <img id="card1"></img>
+                </div>
+            </div>
+        </div>
+        <div class="card2">
+            <div class="card">
+                <div class="card_back">
+                    <p class="hanabara1">
+                        <img id="ha2"></img>
+                    </p>
+                </div>
+                <div class="card_open">
+                    <img id="card2"></img>
+                </div>
+            </div>
+        </div>
+        <div class="card3">
+            <div class="card">
+                <div class="card_back">
+                    <p class="hanabara1">
+                        <img id="ha3"></img>
+                    </p>
+                </div>
+                <div class="card_open">
+                    <img id="card3"></img>
+                </div>
+            </div>
+        </div>
+        <div class="card4">
+            <div class="card">
+                <div class="card_back">
+                    <p class="hanabara1">
+                        <img id="ha4"></img>
+                    </p>
+                </div>
+                <div class="card_open">
+                    <img id="card4"></img>
+                </div>
+            </div>
+        </div>
+        <div class="card5">
+            <div class="card">
+                <div class="card_back">
+                    <p class="hanabara1">
+                        <img id="ha5"></img>
+                    </p>
+                </div>
+                <div class="card_open">
+                    <img id="card5"></img>
+                </div>
+            </div>
+        </div>
+        <div class="card6">
+            <div class="card">
+                <div class="card_back">
+                    <p class="hanabara1">
+                        <img id="ha6"></img>
+                    </p>
+                </div>
+                <div class="card_open">
+                    <img id="card6"></img>
+                </div>
+            </div>
+        </div>
+        <div class="card7">
+            <div class="card">
+                <div class="card_back">
+                    <p class="hanabara1">
+                        <img id="ha7"></img>
+                    </p>
+                </div>
+                <div class="card_open">
+                    <img id="card7"></img>
+                </div>
+            </div>
+        </div>
+        <div class="card8">
+            <div class="card">
+                <div class="card_back">
+                    <p class="hanabara1">
+                        <img id="ha8"></img>
+                    </p>
+                </div>
+                <div class="card_open">
+                    <img id="card8"></img>
+                </div>
+            </div>
+        </div>
+        <div class="card9">
+            <div class="card">
+                <div class="card_back">
+                    <p class="hanabara1">
+                        <img id="ha9"></img>
+                    </p>
+                </div>
+                <div class="card_open">
+                    <img id="card9"></img>
+                </div>
+            </div>
+        </div>
+        <div class="card10">
+            <div class="card">
+                <div class="card_back">
+                    <p class="hanabara1">
+                        <img id="ha10"></img>
+                    </p>
+                </div>
+                <div class="card_open">
+                    <img id="card10"></img>
+                </div>
+            </div>
+        </div>
+        <div class="card11">
+            <div class="card">
+                <div class="card_back">
+                    <p class="hanabara1">
+                        <img id="ha11"></img>
+                    </p>
+                </div>
+                <div class="card_open">
+                    <img id="card11"></img>
+                </div>
+            </div>
+        </div>
+        <div class="card12">
+            <div class="card">
+                <div class="card_back">
+                    <p class="hanabara1">
+                        <img id="ha12"></img>
+                    </p>
+                </div>
+                <div class="card_open">
+                    <img id="card12"></img>
+                </div>
+            </div>
+        </div>
+        <div class="card13">
+            <div class="card">
+                <div class="card_back">
+                    <p class="hanabara1">
+                        <img id="ha13"></img>
+                    </p>
+                </div>
+                <div class="card_open">
+                    <img id="card13"></img>
+                </div>
+            </div>
+        </div>
+        <div class="card14">
+            <div class="card">
+                <div class="card_back">
+                    <p class="hanabara1">
+                        <img id="ha14"></img>
+                    </p>
+                </div>
+                <div class="card_open">
+                    <img id="card14"></img>
+                </div>
+            </div>
+        </div>
+        <div class="card15">
+            <div class="card">
+                <div class="card_back">
+                    <p class="hanabara1">
+                        <img id="ha15"></img>
+                    </p>
+                </div>
+                <div class="card_open">
+                    <img id="card15"></img>
+                </div>
+            </div>
+        </div>
+        <div class="card16">
+            <div class="card">
+                <div class="card_back">
+                    <p class="hanabara1">
+                        <img id="ha16"></img>
+                    </p>
+                </div>
+                <div class="card_open">
+                    <img id="card16"></img>
+                </div>
+            </div>
+        </div>
+        <div class="card17">
+            <div class="card">
+                <div class="card_back">
+                    <p class="hanabara1">
+                        <img id="ha17"></img>
+                    </p>
+                </div>
+                <div class="card_open">
+                    <img id="card17"></img>
+                </div>
+            </div>
+        </div>
+        <div class="card18">
+            <div class="card">
+                <div class="card_back">
+                    <p class="hanabara1">
+                        <img id="ha18"></img>
+                    </p>
+                </div>
+                <div class="card_open">
+                    <img id="card18"></img>
+                </div>
+            </div>
+        </div>
+        <div class="card19">
+            <div class="card">
+                <div class="card_back">
+                    <p class="hanabara1">
+                        <img id="ha19"></img>
+                    </p>
+                </div>
+                <div class="card_open">
+                    <img id="card19"></img>
+                </div>
+            </div>
+        </div>
+        <div class="card20">
+            <div class="card">
+                <div class="card_back">
+                    <p class="hanabara1">
+                        <img id="ha20"></img>
+                    </p>
+                </div>
+                <div class="card_open">
+                    <img id="card20"></img>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!---過關--->
+
+<div class="pass">
+    <div class="pass_board">
+        <img src="image/bg/rule_bg.png">
+    </div>
+    <h1>恭喜過關</h1>
+    <div class="message">
+        <p>你成功把所有的卡片都配對了</p>
+        <p id=time_used></p>
+        <p>按下RESTART可以重新挑戰</p>
+    </div>
+    <a href="#" class="restart_bottom" id="restart_bottom">
+        <h2>RESTART</h2>
+    </a>
+</div>
+
+    <!---java script & jquery--->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
