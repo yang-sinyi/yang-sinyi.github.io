@@ -540,10 +540,10 @@ $('.card2 .card_back').on('click', function(e){
           $(".card13 .card").removeClass("open");
         }
         if(current_card_position[0]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[1]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[0]==15){
           $(".card15 .card").removeClass("open");
@@ -683,10 +683,10 @@ $('.card3 .card_back').on('click', function(e){
           $(".card13 .card").removeClass("open");
         }
         if(current_card_position[0]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[1]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[0]==15){
           $(".card15 .card").removeClass("open");
@@ -826,10 +826,10 @@ $('.card4 .card_back').on('click', function(e){
           $(".card13 .card").removeClass("open");
         }
         if(current_card_position[0]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[1]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[0]==15){
           $(".card15 .card").removeClass("open");
@@ -969,10 +969,10 @@ $('.card5 .card_back').on('click', function(e){
           $(".card13 .card").removeClass("open");
         }
         if(current_card_position[0]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[1]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[0]==15){
           $(".card15 .card").removeClass("open");
@@ -1112,10 +1112,10 @@ $('.card6 .card_back').on('click', function(e){
           $(".card13 .card").removeClass("open");
         }
         if(current_card_position[0]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[1]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[0]==15){
           $(".card15 .card").removeClass("open");
@@ -1255,10 +1255,10 @@ $('.card7 .card_back').on('click', function(e){
           $(".card13 .card").removeClass("open");
         }
         if(current_card_position[0]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[1]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[0]==15){
           $(".card15 .card").removeClass("open");
@@ -1398,10 +1398,10 @@ $('.card8 .card_back').on('click', function(e){
           $(".card13 .card").removeClass("open");
         }
         if(current_card_position[0]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[1]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[0]==15){
           $(".card15 .card").removeClass("open");
@@ -1541,10 +1541,10 @@ $('.card9 .card_back').on('click', function(e){
           $(".card13 .card").removeClass("open");
         }
         if(current_card_position[0]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[1]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[0]==15){
           $(".card15 .card").removeClass("open");
@@ -1684,10 +1684,10 @@ $('.card10 .card_back').on('click', function(e){
           $(".card13 .card").removeClass("open");
         }
         if(current_card_position[0]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[1]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[0]==15){
           $(".card15 .card").removeClass("open");
@@ -1827,10 +1827,10 @@ $('.card11 .card_back').on('click', function(e){
           $(".card13 .card").removeClass("open");
         }
         if(current_card_position[0]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[1]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[0]==15){
           $(".card15 .card").removeClass("open");
@@ -1970,10 +1970,10 @@ $('.card12 .card_back').on('click', function(e){
           $(".card13 .card").removeClass("open");
         }
         if(current_card_position[0]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[1]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[0]==15){
           $(".card15 .card").removeClass("open");
@@ -2113,10 +2113,10 @@ $('.card13 .card_back').on('click', function(e){
           $(".card13 .card").removeClass("open");
         }
         if(current_card_position[0]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[1]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[0]==15){
           $(".card15 .card").removeClass("open");
@@ -2256,10 +2256,10 @@ $('.card14 .card_back').on('click', function(e){
           $(".card13 .card").removeClass("open");
         }
         if(current_card_position[0]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[1]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[0]==15){
           $(".card15 .card").removeClass("open");
@@ -2399,10 +2399,10 @@ $('.card15 .card_back').on('click', function(e){
           $(".card13 .card").removeClass("open");
         }
         if(current_card_position[0]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[1]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[0]==15){
           $(".card15 .card").removeClass("open");
@@ -2542,10 +2542,10 @@ $('.card16 .card_back').on('click', function(e){
           $(".card13 .card").removeClass("open");
         }
         if(current_card_position[0]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[1]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[0]==15){
           $(".card15 .card").removeClass("open");
@@ -2685,10 +2685,10 @@ $('.card17 .card_back').on('click', function(e){
           $(".card13 .card").removeClass("open");
         }
         if(current_card_position[0]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[1]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[0]==15){
           $(".card15 .card").removeClass("open");
@@ -2828,10 +2828,10 @@ $('.card18 .card_back').on('click', function(e){
           $(".card13 .card").removeClass("open");
         }
         if(current_card_position[0]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[1]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[0]==15){
           $(".card15 .card").removeClass("open");
@@ -2971,10 +2971,10 @@ $('.card19 .card_back').on('click', function(e){
           $(".card13 .card").removeClass("open");
         }
         if(current_card_position[0]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[1]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[0]==15){
           $(".card15 .card").removeClass("open");
@@ -3114,10 +3114,10 @@ $('.card20 .card_back').on('click', function(e){
           $(".card13 .card").removeClass("open");
         }
         if(current_card_position[0]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[1]==14){
-          $(".card10 .card").removeClass("open");
+          $(".card14 .card").removeClass("open");
         }
         if(current_card_position[0]==15){
           $(".card15 .card").removeClass("open");
