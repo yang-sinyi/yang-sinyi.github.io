@@ -5,16 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>翻牌遊戲</title>
-
 </head>
 <body>
     <body background="image/bg/background.jpg">
-    
+    <BGSound Src="sound/bgm.mp3" Loop="True"></BGSound>
+
 <!---開始前--->
 
     <div class="intro">
         <div class="rule_board">
             <img src="image/bg/rule_bg.png">
+        </div>
+        <div>
+            <img class="with_rule1" src="image/bg/with_rule1.png">
+            <img class="with_rule2" src="image/bg/with_rule2.png">
         </div>
         <h1>規則說明</h1>
         <div class="rule">
@@ -319,10 +323,13 @@
     <div class="pass_board">
         <img src="image/bg/rule_bg.png">
     </div>
+    <div>
+        <img class="with_goal1" src="image/bg/with_goal1.png">
+        <img class="with_goal2" src="image/bg/with_goal2.png">
+    </div>
     <h1>恭喜過關</h1>
     <div class="message">
         <p>你成功把所有的卡片都配對了</p>
-        <p id=time_used></p>
         <p>按下RESTART可以重新挑戰</p>
     </div>
     <a href="#" class="restart_bottom" id="restart_bottom">
