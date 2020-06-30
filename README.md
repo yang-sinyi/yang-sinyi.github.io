@@ -1,5 +1,7 @@
 # yang-sinyi.github.io
 
+<b>第二次作業說明</b>
+
 網站template來源: https://colorlib.com/wp/template/nissa/
 
 額外使用素材出處:
@@ -24,15 +26,25 @@
       聯絡:
         只稍微調整排版。
           
-期末報告作業說明:
+<b>期末報告作業說明</b>
+
+報告內容:
 
       主題:翻牌遊戲
       流程:看規則 → 翻牌 → 結束
       規則:總共20張牌，找一樣的，翻完結束
       其他功能:富士山按鈕可以重新遊戲、設定按鈕可以改變牌底花色
 
-報告之後的修正
+報告之後的修正:
 
       修正翻到不同的牌時，第二張不會出現的問題
       簡化程式
       新增一些裝飾圖片
+
+參考資料或素材來源:
+
+      https://chojugiga.com/
+      http://bg-patterns.com/?page_id=479
+      https://free-paper-texture.com/
+      https://www.jstips.co/zh_tw/javascript/shuffle-an-array/
+      計時器的參考網站找不到了
