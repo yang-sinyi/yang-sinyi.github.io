@@ -9,12 +9,12 @@
 /* Yu Mingcho Fonts
 /*----------------------------------------*/
 
-@font-face {
+/*@font-face {
   font-family: 'Yu Mincho';
   src: url('../icon-fonts/yumin.woff') format("woff"),
        url('../icon-fonts/yumin.ttf') format("truetype"),
        url('../icon-fonts/yumin.eot') format("embedded-opentype");
-}
+}*/
 
  
 /*----------------------------------------*/
@@ -24,7 +24,6 @@
 html,
 body {
 	height: 100%;
-	font-family: "Yu Mincho", sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
 
